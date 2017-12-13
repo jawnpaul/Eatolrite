@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "887553619057",
+    "firebase_url": "https://eatolrite.firebaseio.com",
+    "project_id": "eatolrite",
+    "storage_bucket": "eatolrite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887553619057:android:96fb3e02ff8d12a7",
+        "android_client_info": {
+          "package_name": "ng.org.knowit.eatolrite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887553619057-m7cmu6bhfdn5hq9654ao4b36oarnlmsk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ng.org.knowit.eatolrite",
+            "certificate_hash": "e06f9fff6a0cab493b6b1f23e34bf906420b6d6e"
+          }
+        },
+        {
+          "client_id": "887553619057-57nve3rvcc16tm1qlt590guoru5siqi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeIFjtH8V9ibufyhg6JvNOjf6qcFwr01U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887553619057-57nve3rvcc16tm1qlt590guoru5siqi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

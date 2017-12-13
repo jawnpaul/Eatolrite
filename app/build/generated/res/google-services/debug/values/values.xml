@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">887553619057-57nve3rvcc16tm1qlt590guoru5siqi7.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://eatolrite.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">887553619057</string>
+    <string name="google_api_key" translatable="false">AIzaSyCeIFjtH8V9ibufyhg6JvNOjf6qcFwr01U</string>
+    <string name="google_app_id" translatable="false">1:887553619057:android:96fb3e02ff8d12a7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCeIFjtH8V9ibufyhg6JvNOjf6qcFwr01U</string>
+    <string name="google_storage_bucket" translatable="false">eatolrite.appspot.com</string>
+</resources>
