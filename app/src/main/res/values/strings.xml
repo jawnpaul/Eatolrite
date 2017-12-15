@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Eatolrite</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="kg">Kilograms</string>
+    <string name="pounds">Pounds</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="metres">Metres</string>
+    <string name="inches">Inches</string>
+    <string name="bmi">BMI</string>
+    <string name="status">Status</string>
+    <string name="reset">Reset</string>
 </resources>
