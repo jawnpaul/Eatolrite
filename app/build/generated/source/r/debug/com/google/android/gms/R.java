@@ -12,10 +12,10 @@ public final class R {
         public static final int center = 0x7f0d0030;
         public static final int none = 0x7f0d0018;
         public static final int normal = 0x7f0d001a;
-        public static final int radio = 0x7f0d0069;
-        public static final int text = 0x7f0d00b7;
-        public static final int text2 = 0x7f0d00b5;
-        public static final int toolbar = 0x7f0d008f;
+        public static final int radio = 0x7f0d006a;
+        public static final int text = 0x7f0d00b3;
+        public static final int text2 = 0x7f0d00b1;
+        public static final int toolbar = 0x7f0d008b;
         public static final int wrap_content = 0x7f0d002d;
     }
     public static final class integer {

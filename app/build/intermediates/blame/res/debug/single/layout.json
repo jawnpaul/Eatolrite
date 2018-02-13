@@ -20,12 +20,12 @@
         "source": "/home/john/.android/build-cache/9cb2afd4ceca25605b58778bf8d86f015e55028f/output/res/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
-        "source": "/home/john/.android/build-cache/9cb2afd4ceca25605b58778bf8d86f015e55028f/output/res/layout/notification_template_icon_group.xml"
-    },
-    {
         "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
         "source": "/home/john/.android/build-cache/d89dec48132a928b8ea42f31ddd10db6ab1ae700/output/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/home/john/.android/build-cache/9cb2afd4ceca25605b58778bf8d86f015e55028f/output/res/layout/notification_template_icon_group.xml"
     },
     {
         "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
@@ -66,10 +66,6 @@
     {
         "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
         "source": "/home/john/.android/build-cache/9cb2afd4ceca25605b58778bf8d86f015e55028f/output/res/layout/notification_template_media_custom.xml"
-    },
-    {
-        "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/layout/tooltip.xml",
-        "source": "/home/john/.android/build-cache/bbf0150c140b11151c898150c31f93bfdda133d0/output/res/layout/tooltip.xml"
     },
     {
         "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
@@ -132,16 +128,12 @@
         "source": "/home/john/.android/build-cache/d89dec48132a928b8ea42f31ddd10db6ab1ae700/output/res/layout/design_layout_tab_text.xml"
     },
     {
-        "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/layout/content_main2.xml",
-        "source": "/home/john/AndroidStudioProjects/Eatolrite/app/src/main/res/layout/content_main2.xml"
+        "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/home/john/.android/build-cache/d89dec48132a928b8ea42f31ddd10db6ab1ae700/output/res/layout/design_navigation_item.xml"
     },
     {
         "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/home/john/.android/build-cache/9cb2afd4ceca25605b58778bf8d86f015e55028f/output/res/layout/abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
-        "source": "/home/john/.android/build-cache/d89dec48132a928b8ea42f31ddd10db6ab1ae700/output/res/layout/design_navigation_item.xml"
     },
     {
         "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
@@ -174,10 +166,6 @@
     {
         "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
         "source": "/home/john/.android/build-cache/9cb2afd4ceca25605b58778bf8d86f015e55028f/output/res/layout/notification_action.xml"
-    },
-    {
-        "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/layout/activity_main2.xml",
-        "source": "/home/john/AndroidStudioProjects/Eatolrite/app/src/main/res/layout/activity_main2.xml"
     },
     {
         "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",

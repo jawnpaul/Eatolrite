@@ -1,167 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_height="match_parent"
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:layout_height="match_parent">
+
+
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         tools:context="ng.org.knowit.eatolrite.Activity.CalculateBMI">
 
-        <LinearLayout
-            android:layout_marginBottom="10dp"
+        <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/bmi_toolbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:weightSum="100"
-            android:orientation="horizontal">
-            <TextView
-                android:id="@+id/height_textView"
-                android:layout_width="wrap_content"
-                android:layout_weight="30"
-                android:textSize="16sp"
-                android:layout_height="wrap_content"
-                android:text= "@string/weight" />
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
-            <RadioGroup
-                android:id="@+id/weight_radio_group"
-                android:orientation="horizontal"
-                android:layout_weight="70"
-                android:weightSum="100"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                <RadioButton
-                    android:onClick="onWeightRadioButtonClicked"
-                    android:id="@+id/kg_radioButton"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="50"
-                    android:layout_height="wrap_content"
-                    android:text="@string/kg" />
-
-                <RadioButton
-                    android:onClick="onWeightRadioButtonClicked"
-                    android:id="@+id/pound_radioButton"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="50"
-                    android:layout_height="wrap_content"
-                    android:text="@string/pounds" />
-
-            </RadioGroup>
-
-
-        </LinearLayout>
-
-        <EditText
-            android:id="@+id/height_editText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="number" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:weightSum="100"
-            android:orientation="horizontal">
-            <TextView
-                android:id="@+id/weight_textView"
-                android:layout_width="wrap_content"
-                android:layout_weight="30"
-                android:textSize="16sp"
-                android:layout_height="wrap_content"
-                android:text= "@string/height" />
+            android:orientation="horizontal"
+            android:weightSum="100">
 
-            <RadioGroup
-                android:id="@+id/height_radio_group"
-                android:layout_weight="70"
-                android:weightSum="100"
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                <RadioButton
-                    android:onClick="onHeightRadioButtonClicked"
-                    android:id="@+id/metres_radioButton"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="50"
-                    android:layout_height="wrap_content"
-                    android:text="@string/metres" />
-
-                <RadioButton
-                    android:onClick="onHeightRadioButtonClicked"
-                    android:id="@+id/inches_radioButton"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="50"
-                    android:layout_height="wrap_content"
-                    android:text="@string/inches" />
-
-            </RadioGroup>
-
-        </LinearLayout>
-
-        <EditText
-            android:id="@+id/weight_editText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="number" />
-
-
-        <LinearLayout
-            android:weightSum="100"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_weight="40"
+            <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="50dp">
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="70"
+                android:paddingRight="40dp">
+
+                <EditText
+                    android:id="@+id/weight_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:ems="10"
+                    android:hint="Weight"
+                    android:inputType="numberDecimal" />
+            </android.support.design.widget.TextInputLayout>
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/weight_material_design_spinner"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="30"
+                android:hint="unit"
+                android:paddingBottom="0dp"
+                app:met_floatingLabel="normal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="70"
+                android:paddingRight="40dp">
+
+                <EditText
+                    android:id="@+id/height_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Height"
+                    android:inputType="numberDecimal" />
+            </android.support.design.widget.TextInputLayout>
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                android:id="@+id/height_material_design_spinner"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="30"
+                android:hint="unit"
+                android:paddingBottom="0dp"
+                app:met_floatingLabel="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="40">
 
                 <TextView
-                    android:layout_marginRight="150dp"
-
                     android:id="@+id/bmi_textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/bmi" />
+
+                    android:layout_marginRight="150dp"
+                    android:text="@string/bmi"
+                    android:textColor="@color/mint"
+                    android:textSize="32sp" />
 
                 <TextView
                     android:id="@+id/bmi_result_textView"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/bmi" />
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/colorPrimaryDark" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_weight="40"
-                android:layout_marginBottom="50dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="40">
                 <TextView
-                    android:layout_marginRight="150dp"
                     android:id="@+id/status_textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="150dp"
                     android:text="@string/status"
+                    android:textColor="@color/mint"
+                    android:textSize="32sp"
                     />
-
-
                 <TextView
                     android:id="@+id/status_response_textView"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/colorPrimaryDark" />
 
             </LinearLayout>
 
 
             <LinearLayout
-                android:layout_weight="20"
-                android:layout_marginLeft="100dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_weight="20">
                 <Button
                     android:id="@+id/save_button"
                     android:layout_width="wrap_content"
@@ -181,4 +175,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</ScrollView>
+</FrameLayout>

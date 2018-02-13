@@ -1,0 +1,4 @@
+#Tue Feb 13 01:45:30 WAT 2018
+base.0=/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/transforms/dex/androidTest/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/transforms/dex/androidTest/debug/folders/1000/1f/main/classes.dex

@@ -16,12 +16,12 @@
         "source": "/home/john/.android/build-cache/d89dec48132a928b8ea42f31ddd10db6ab1ae700/output/res/color-v23/design_tint_password_toggle.xml"
     },
     {
-        "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
-        "source": "/home/john/.android/build-cache/9cb2afd4ceca25605b58778bf8d86f015e55028f/output/res/color-v23/abc_tint_default.xml"
-    },
-    {
         "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
         "source": "/home/john/.android/build-cache/9cb2afd4ceca25605b58778bf8d86f015e55028f/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/john/.android/build-cache/9cb2afd4ceca25605b58778bf8d86f015e55028f/output/res/color-v23/abc_tint_default.xml"
     },
     {
         "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",

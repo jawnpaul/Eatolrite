@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_expand_more_black_18dp.png",
+        "source": "/home/john/.android/build-cache/4028c9da32f39b4eeefefd109c0ef75e88a04849/output/res/drawable-xhdpi/ic_expand_more_black_18dp.png"
+    },
+    {
+        "merged": "/home/john/AndroidStudioProjects/Eatolrite/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_share.png",
+        "source": "/home/john/AndroidStudioProjects/Eatolrite/app/src/main/res/drawable-xhdpi/ic_action_share.png"
+    }
+]
